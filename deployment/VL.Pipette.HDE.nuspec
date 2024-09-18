@@ -2,11 +2,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Pipette.HDE</id>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <title>VL.Pipette.HDE</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>
-    <projectUrl>https://github.com/vvvv/VL.Pipette.HDE</projectUrl>
+    <repository type="git" url="https://github.com/vvvv/VL.Pipette.HDE.git" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>A desktop color picker for vvvv</summary>
     <description>A desktop color picker for vvvv</description>
@@ -15,9 +15,11 @@
 	  <dependency id="MouseKeyHook" version="5.6.0" />
     </dependencies>
 	<icon>icon\nugeticon.png</icon>
+	<readme>docs\README.md</readme>
   </metadata>
   <files>
     <file src="..\*.vl" target="" exclude="" />
 	<file src="nugeticon.png" target="icon\" />
+	<file src="..\README.md" target="docs\" />
   </files>
 </package>
